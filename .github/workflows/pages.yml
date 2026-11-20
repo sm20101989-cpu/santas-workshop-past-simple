@@ -22,6 +22,7 @@ jobs:
         run: |
           mkdir public
           unzip -q workshop-site.zip -d public
+          cp Winter_is_Around_the_Corner.html public/winter-book.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
